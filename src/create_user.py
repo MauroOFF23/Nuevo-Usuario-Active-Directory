@@ -10,7 +10,7 @@ def create_user(address, username, password, new_user):
     
     try:
         conn.simple_bind_s(username, password)
-        dn = f"CN={new_user['username']},OU=Alumnos,DC=pod3test,DC=local"
+        dn = f"CN={new_user['username']},OU=Alumnos,DC=pod3test,DC=local" #Se agrega la unidad organizativa (OU) del dominio al que se quiere agregar el usuario, es posible hacer modificaciones para hacer mas complejo este paso.
         attrs = [
             ('objectClass', [b'user']),
             ('sAMAccountName', [new_user['username'].encode('utf-8')]),
