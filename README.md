@@ -13,5 +13,5 @@ El objetivo de este proyecto es el facilitar la creación de usuarios en un Wind
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/MauroOFF23/Nuevo-Usuario.Active-Directory.git
+   git clone https://github.com/MauroOFF23/Nuevo-Usuario-Active-Directory.git
    cd Nuevo-Usuario.Active-Directory
