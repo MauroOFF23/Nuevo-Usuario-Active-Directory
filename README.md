@@ -15,5 +15,5 @@ El objetivo de este proyecto es el facilitar la creación de usuarios en un Wind
    ```bash
    git clone https://github.com/MauroOFF23/Nuevo-Usuario-Active-Directory.git
    cd Nuevo-Usuario.Active-Directory
-> .[!NOTE].
-> La obtención de los datos es por consola, por lo que se debe ajustar a la arquitectura que se este utilizando, mediante un GET, recibiendolos desde una app de terceros, etc.
+> [!NOTE]
+> La obtención de los datos en este ejemplo es por consola, por lo que se debe ajustar a la arquitectura que se este utilizando, mediante un GET, recibiendolos desde una app de terceros, etc.
